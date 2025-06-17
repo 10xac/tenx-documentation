@@ -1,5 +1,4 @@
-site_name: My Docs
-nav:
-  - Home: index.md
-  - Getting Started: getting-started.md
-  - Features: features.md
+site_name: Tenx Documentaion
+
+theme:
+  name: material
