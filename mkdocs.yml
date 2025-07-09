@@ -2,3 +2,6 @@ site_name: Tenx Documentaion
 
 theme:
   name: material
+markdown_extensions:
+  - attr_list
+  - md_in_html

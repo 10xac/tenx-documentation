@@ -7,7 +7,7 @@ hide:
 
 <div style="
   width: 70vw;
-  height: 80vh;
+  height: 100%;
   background-color: white;
   padding: 8%;
   Padding-top: 0;
@@ -26,7 +26,9 @@ hide:
   <h3>Welcome to Tenx</h3>
   <ul>
     <li><a href="Platform Overview_ Introduction, Purpose, and Benefits of Tenx">Platform Overview</a></li>
-    <li><a href="https://drive.google.com/file/d/1w7JWu3rjptBFgJ-DDKfSZow4d1Hyl7XK/view?usp=drive_link">Introductory Video About Tenx</a></li>
+<li><a href="https://drive.google.com/file/d/1w7JWu3rjptBFgJ-DDKfSZow4d1Hyl7XK/view?usp=drive_link" target="_blank">
+Introductory Video About Tenx
+</a> </li>        <li><a href="demo">Demo Guide</a></li>
   </ul>
 </div>
 
@@ -36,7 +38,7 @@ hide:
     <li><a href="Account Management">Account Management</a></li>
     <li><a href="Trainee Quick Guide">Trainee Quick Guide</a></li>
     <li><a href="Staff_Admin Quick Guide">Staff/Admin Quick Guide</a></li>
-    <li><a href="quick-start/developer.md">Developer Quick Guide</a></li>
+    
   </ul>
 </div>
 
@@ -69,7 +71,6 @@ hide:
   <h3>For Developers & Technical Users</h3>
   <ul>
     <li><a href="tenx Architecture">Tenx Architecture Overview</a></li>
-    <li><a href="tech/installation.md">Installation Guide</a></li>
     <li><a href="API Documentation">API Documentation</a></li>
     <li><a href="Contribution Guidelines">Contribution Guidelines</a></li>
     <li><a href="Security Guidelines">Security Guidelines</a></li>
@@ -80,9 +81,9 @@ hide:
 <div style="flex: 1 1 30ch; min-width: 250px;">
   <h3>More</h3>
   <ul>
-    <li><a href="features/browse.md">Browse Tenx Features (Detailed Guides)</a></li>
-    <li><a href="whats-new.md">What’s New (Release Notes)</a></li>
-    <li><a href="demo.md">Demo Guide</a></li>
+    <li><a href="features/browse.md">Browse Tenx Features</a></li>
+    <li><a href="whats-new">What’s New </a></li>
+
   </ul>
 </div>
 

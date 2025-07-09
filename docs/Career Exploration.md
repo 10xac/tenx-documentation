@@ -20,9 +20,8 @@ The **Career Exploration** feature in the Career Scenario Simulator is designed 
 
 * Built-in AI Wizard answers career questions and suggests concrete next steps.
 
-<a href="https://drive.google.com/file/d/1w7JWu3rjptBFgJ-DDKfSZow4d1Hyl7XK/view?usp=drive_link" target="_blank">
-  ![][image2] Introductory Video About Tenx
-</a>
+![][image2]
+
 ---
 
 2. THE MAIN SCREEN AT A GLANCE

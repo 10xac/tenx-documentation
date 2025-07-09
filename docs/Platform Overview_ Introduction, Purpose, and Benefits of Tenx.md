@@ -9,7 +9,6 @@ hide:
 
 **Tenx** is an advanced ed-tech platform designed by 10 Academy to bridge the gap between educational training and real-world application. It is a comprehensive system that serves both administrative staff and trainees by providing tools that facilitate effective management of educational content, assessment, and communication.
 
-<a href="https://drive.google.com/file/d/1w7JWu3rjptBFgJ-DDKfSZow4d1Hyl7XK/view?usp=drive_link">Introductory Video About Tenx</a>
 
 #### **Overview of Tenx** 
 Tenx offers a robust framework for user management and data analytics. It supports a wide array of functionalities tailored to enhance the learning experience and streamline administrative tasks. The platform features an intuitive interface where users can manage multiple programs and cohorts, interact with a rich question bank, and utilize detailed analytics for real-time insights.

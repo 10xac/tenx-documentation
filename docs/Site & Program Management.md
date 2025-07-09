@@ -3,215 +3,113 @@ hide:
   - navigation
 ---
 
+# **Tenx Admin & Super Admin Management Manual**
 
-### **Admin / Super-Admin**
+## **1\. Purpose**
 
----
-
-## **0 | Executive Summary**
-
-Site & Program Management in Tenx stitches together **Apply**, **Learn**, and **Leap** so you can turn a brand-new initiative into a fully running, data-driven program.  
- Super-Admins control the high-level levers—program creation, cohort lifecycle, roles, infrastructure—while Staff operate day-to-day activities such as building forms, sending emails, and reviewing applicant data.  
- This manual walks you through every stage: *planning ➜ launch ➜ daily operations ➜ scale ➜ wrap-up & archive.*
+Provide **Staff (Admins)** and **Super Admins** a concise reference for managing Tenx’s site operations and training programs—strictly based on the current feature set and the 2024‑2025 plan.
 
 ---
 
-## **1 | Core Concepts & Data Objects**
+## **2\. Roles & Permissions**
 
-| Object | What it means | Why it matters |
-| ----- | ----- | ----- |
-| **Program** | A top-level container (e.g. “Gen-AI Bootcamp 2025”) | Governs branding, default roles, KPIs |
-| **Cohort** | A dated instance of a Program (e.g. “Batch A — Mar 2025”) | Holds users, forms, quizzes, notifications |
-| **Role** | Permission bundle (Staff, Reviewer, Mentor, etc.) | Drives UI visibility & API access |
-| **Form** | Any data-capture interface: application, survey, review | Can be public or invite-only, time-bound |
-| **Quiz / Mock** | Auto-graded question set tied to a cohort | Supports adaptive testing & CV insights |
-| **Notification Rule** | Email or in-app alert triggered by an event | Keeps everyone in sync |
-| **Operation Mode** | *Dense* vs *Sparse*, *Day* vs *Night* resource profiles | Optimises compute cost |
-| **Infrastructure Stack** | Kubernetes namespace \+ DB instance \+ CDN bucket | One per Program by default |
+### **2.1 Super Admin**
 
----
+* All Staff capabilities  
+* Create / view / edit / **manage programs** and **cohorts**  
+* Add / edit / **manage staff users**  
+* Add / edit / **manage roles & permissions**  
+* Launch new **infrastructure** and exercise **system control**
 
-## **2 | Feature Map (What you can do)**
+### **2.2 Staff (Admin)**
 
-### **Public-Facing**
+* Create / edit / duplicate / preview **forms** (survey, interview, review, application)  
+* Set submission time frames and monitor submission stats  
+* Review submissions alongside evaluation / feedback forms  
+* Create **quizzes / mocks** per group and manage **question banks**  
+* Monitor applicant & cohort data, CV insights, draft forms, and registered users  
+* Send **bulk emails** and download send‑status reports  
+* Download table data for analysis  
+* Configure notification & cohort preferences  
+* Access **Nana** & **Eagle** dashboards for insights  
+* Manage issues, conflicts, and escalation workflows
 
-* **Registration Portal** – email/password account creation
-
-* **Public Forms** – multi-step applications, surveys, feedback
-
-* **CV-Upload with Instant Insight** – résumé parsed & scored in seconds
-
-### **Authenticated – Super-Admin**
-
-* Create / edit / archive **Programs** and **Cohorts**
-
-* Launch or scale **infrastructure stacks** (one-click K8s namespace)
-
-* Define / edit unlimited **Roles & Permissions**
-
-* Global **System Control** panel: load monitor, cost dashboard, mode switch
-
-* Add extra **email domains** for system campaigns
-
-### **Authenticated – Staff**
-
-* **Form Builder**: duplicate, preview, schedule open/close windows
-
-* **Quiz & Question-Bank** management (tag, label, stats)
-
-* **Bulk Email** composer with delivery report download
-
-* **Applicant 360°** view: aggregated submissions \+ CV analysis
-
-* **Cohort & Notification Preferences** per staff member
-
-* CSV/Excel **Table Export** for offline analysis
+**Tip:** Super Admins should define granular roles first, then delegate routine tasks to Staff to maintain clear separation of duties.
 
 ---
 
-## **3 | Role & Permission Matrix**
+## **3\. Core Modules & Workflows**
 
-| Capability | Super-Admin | Staff | Applicant |
-| ----- | ----- | ----- | ----- |
-| Create Program | ✅ | ❌ | ❌ |
-| Edit Cohort Dates | ✅ | ✅ | ❌ |
-| Build / Publish Form | ✅ | ✅ | ❌ |
-| Launch Infra Stack | ✅ | ❌ | ❌ |
-| View All Applicant Data | ✅ | ✅ | Own only |
-| Download Bulk Table Data | ✅ | ✅ | ❌ |
-| Manage Roles | ✅ | ❌ | ❌ |
-| Switch Operation Mode | ✅ | ❌ | ❌ |
+### **3.1 Application Entry**
 
-*(Screenshot 01 – “Role Permissions Grid” placeholder)*
+\#\#\#\# Public Intake
 
----
+* User registration, multi‑step forms, and CV‑upload insight  
+* **Planned:** make all form types, quizzes, grading, and Nana Q\&A publicly accessible
 
-## **4 | First-Time Setup (Step-by-Step)**
+\#\#\#\# Authenticated Management
 
-1. **Create a Program**
+* **Form Lifecycle:** create → edit / duplicate → set window → monitor stats → review  
+* **Applicant Records:** aggregated info, CV insights, draft forms, task & quiz assignment, data download
 
-   * **Dashboard ► Programs ► \+New**
+### **3.2 Program & Cohort Administration**
 
-   * Fill branding fields; choose default colour scheme.
+* Create and edit programs & cohorts; maintain multi‑program, multi‑cohort dashboards  
+* **Planned:** automated scheduling, operating‑mode toggles (sparse/dense, day/night), and load & cost monitoring
 
-   * *(Screenshot 02 – Program wizard)*
+### **3.3 Onboarding**
 
-2. **Spin-up Infrastructure**
+* Publish static onboarding docs to trainees  
+* **Planned:** dynamic info retrieval, first‑time system tour, chatbot context selection, and Nana knowledge‑base drift alerts
 
-   * System prompts: *“Launch stack now?”* → **Launch**.
+### **3.4 Learning Management**
 
-   * Takes \~4 min; status turns green.
+**Staff Tools**
 
-3. **Add Roles (optional)**
+* Smart grading & rubric generation  
+* Assignment / peer‑grading oversight  
+* Trainee groups, leaderboards, dashboards, portfolios  
+* Job‑application tracking: job review, asset review, application stats
 
-   * **Settings ► Roles** → Duplicate “Staff” → name it “Reviewer” → remove ‘bulk\_email’ permission.
+**Planned Enhancements**
 
-4. **Create First Cohort**
+* Training‑goal specification and personalised evaluation  
+* Large‑scale automated grading and deeper insight extraction
 
-   * **Programs ► Your Program ► Cohorts ► \+New**
+### **3.5 Monitoring & Feedback**
 
-   * Start/End dates, timezone, auto-archive toggle.
+* **Current:** manual follow‑ups, survey management, real‑time notifications  
+* **Planned:** automated engagement/satisfaction/experience tracking, complaint workflow, weekly cohort analytics
 
-5. **Invite Staff**
+### **3.6 Job Placement (Leap)**
 
-   * **Users ► Bulk Import** → upload CSV (email, role, cohort).
-
-   * Verify invitation email delivery (Email ► Sent).
-
-6. **Publish Registration Form**
-
-   * **Forms ► \+New** → use “Standard Application” template.
-
-   * Set open/close dates; toggle *Public*; enable CAPTCHA.
-
-7. **Test Public Flow**
-
-   * Open incognito browser, register, submit demo form.
-
-   * Staff views submission under **Forms ► Submissions**.
-
-8. **Schedule Nightly Backup**
-
-   * **Settings ► Ops ► Backups** → 02:00 UTC, 7-day retention.
+* **Staff:** explore trainee profiles, approve/decline evidence, update job status, view SJS insights  
+* **Trainee:** job exploration, reactions, asset management, matching insights  
+* **Planned:** LinkedIn API application, iPersona insights, job simulation, search bar, shareable links
 
 ---
 
-## **5 | Daily & Weekly Operations (Staff)**
+## **4\. Communication & Notifications**
 
-| Frequency | Task | Where |
-| ----- | ----- | ----- |
-| Daily AM | Check **Dashboard** for new submissions & CV-insight flags | Dashboard |
-| Daily PM | Respond to “Issues” tickets from applicants | Apply ► Issues |
-| Monday | Download previous week’s table data → send to BI | Forms ► ⋯ |
-| Wednesday | Review “Question Bank Stats” to retire low-value questions | Quizzes ► Bank |
-| Friday | Bulk email “application-status update” | Email ► Campaigns |
-
-*(Screenshot 03 – Staff dashboard heat-map placeholder)*
+* Configure bulk emails, monitor send status, adjust frequencies  
+* Users and Staff receive in‑app & email notifications per their preferences  
+* **Planned:** add extra email addresses and fine‑grained frequency settings
 
 ---
 
-## **6 | Advanced Configuration**
+## **5\. Data, Privacy & Issue Management**
 
-### **6.1 Form Automations**
-
-* Add **Decision Rules**: auto-label as *Shortlist* if score \> 85 % AND GPA ≥ 3.2.
-
-* **Decision Validation**: require dual-approval for “Reject”.
-
-### **6.2 Notification Rules**
-
-* New submission → Slack \#apply-alerts (Staff)
-
-* Operation-mode change → Email Ops Team
-
-### **6.3 Operation Modes**
-
-| Mode | CPU / DB Pool | Typical Use |
-| ----- | ----- | ----- |
-| **Dense-Day** | 4× | Launch week, heavy traffic |
-| **Sparse-Night** | 0.5× | 00:00–06:00 quiet hours |
-| Switch under **Ops ► Modes** or schedule automatic pattern. |  |  |
-
-### **6.4 Cost Monitoring**
-
-* Real-time graph of compute-hours & email sends.
-
-* Set **Budget Alert** (e.g. 80 % of monthly limit).  
-   *(Screenshot 04 – Cost Monitor)*
+* **Data Download:** export tabular data for offline analysis  
+* **User Data Deletion & Archiving:** approve requests; follow retention policy  
+* **Issue Tracking:** log, escalate, and resolve user/system issues; manage conflict workflows  
+* **System Control (Super Admin):** launch infrastructure, toggle modes, schedule tasks, oversee load & cost dashboards
 
 ---
 
-## **7 | Security & Compliance Notes**
+## **6\. Nana & Eagle Dashboards**
 
-* All public uploads (CVs) scanned for malware; stored in private S3 bucket.
+* **Nana Dashboard:** select context, extract insights, receive personalised recommendations, adjust communication settings  
+* **Eagle Monitoring:** track trainee engagement, satisfaction, and experience with automated alerts
 
-* Role changes logged in immutable audit trail for 24 months.
+**Reminder:** schedule periodic knowledge‑base refreshes to maintain Nana’s answer accuracy.
 
-* Applicants can file **Data-Deletion Request Form** (GDPR / POPIA).
-
-* Bulk-email uses dedicated sub-domain with SPF/DKIM.
-
----
-
-## **8 | Maintenance & Backup**
-
-| Task | Owner | Cadence |
-| ----- | ----- | ----- |
-| Backup validation restore test | Dev-Ops | Quarterly |
-| Dormant applicant purge (\>120 days) | Staff | Monthly |
-| Cost dashboard calibration | Super-Admin | Monthly |
-| Role audit | Super-Admin | Bi-Annually |
-
----
-
-## **9 | Troubleshooting FAQ**
-
-| \# | Problem | Likely Cause | Fix |
-| ----- | ----- | ----- | ----- |
-| 1 | Public can’t see registration form | Form not “Public” or outside date range | Edit form → Visibility |
-| 2 | Staff bulk email shows 0 delivered | New domain lacks SPF | Add SPF / wait DNS TTL |
-| 3 | CV insight returns blank | Parsing queue backlog | Ops ► Runners → Scale to 2x |
-| 4 | Cohort list empty for staff | Role missing read\_cohort | Update role permissions |
-| 5 | Cost spike overnight | Mode stuck in Dense-Night | Set schedule; review cron |
-
-[image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJwAAABFCAYAAAC/iY+qAAAE30lEQVR4Xu2XPW9eRRCFXVAQhIQo80FNEJ2dBlFgUaQHZISQv5r4FyB6aqgRHT2ipOEfBERPAzRYFFFskigoARKHu9bdaHnuzO7e9/OudR7pSPHM2dnNnRNCNjaEEEIIIYQQTXFy9cazRYrzhRjA0MwrzhdiAEMzjzhbCBMGZ1ZxrhAuDM8s4kwhsjBAY8V5QhRhiMaIs4SogkGqFecIUQ3DVCPOEGIUDFRJPC/EaBiqnHhWiJlgsDzxnBAzw3BZ4hmxZg4PD5teCgNG0S/WTOuBCzBkSwschy9SvOuichEC9/vGtUvc38L3yMHLEO+s5eDg4GZYZBT7Fp3vxTFnujt+G+MPdGee0F9zNr2nm/ET+ym973ry68H7vHrK2N6vr269wv3Ns8MBHLws8d4S/JBxyamHxDOd99/d3d3X4887Ozsv0xvgHfzZIno63enuOerv+7z2nPcz6fvXk/t+Ts/0vz7u9DQ3K9S79/1g1b0zdy9vfjvv/lw4eJni3WPJfaT9/f1vrF5/5jbrHrk7vJ5Xj3h9rx7welbdqkW8nlVLObmy9XCRu3sOQ7Fs8f4xeB8vkOuNITen1GMtMkvPu6uv/2jVWYtYPatGTq7ceLKIvf0PBmIV4hs84ken6At49RzdmducPesdXq/76+xTzqZ4JuD1rFrAqwc4q//549TjMXZnRRiGVYnvINYH5IdLCfVuuQ9Z99je3n7BmlW6I/y/IesB78zR0dFLXi+H9w6rFvDqkbRf8pKafVXDIKxSfEsk97GteiDXs/D8Xj1Q6rEWyfU8vLusWsCrR0K/+wP5YadPSt6lwhCsWnxPxPoo3hIiVt+q9fVfnLrpj4Ret7Qz1kpnrH4/6wPWA7kzrAW8eqT7R9VX3syVwgCsQ3xTIH6cVLFObwrP5Pz01dyxt7f3jncmd45ngrqwHdMX8eZZtYBXT/FmrhQuf13iu8TiUeAgvk0slrWHLcClr1t8n1gMk/ivW4ALT/XXF58NRE9O927unJ853dwe9HLiG8V8TCZsAS47lQU9VA08Y4nvFBcELroUHnqe6423aM0yOG+IbxUXAC45lQU9QWcP/qStCs6xxPeKxuGCU1nQc/rm27SMgvMs8c2iYbjcVBY1nrFwpiW+WzQKF1sKU6kf4ayc/+Ta0GuJbxcNwqWWAlLqBzhn3jOp+H7RGFxoKosxfUtn/zzmkXPo83T36uYhfw+iIbjQVBa5XoAzLFnQ40mBaxwuNJVFrhfgDEse9FlS4BqHCy0FI9e7//6twQxLHvRZUuAahwstBaOmV5IHfZYUuMbhQkvBqOmV5EGfJQWucbjQUjByvdOtdwczLHnQZ0mBaxwutBSMXC/AGZY86LOkwDUOF1oKRq4X4AxLFk//OB74LClwjcOFloIRe/c/eo+tczhjoNfyc0tS4BqHC01lUeoHOGfeM6kUuMbhQlNZlPqBv7//bjAr5z97/Gjg9aTANQ4XmsqixhOJHu+v3whn5qTANQ4XmsqixjMGzitJgWscLjSVBT2erxbOKkmBaxwuNJUFPTlvCc6okQLXOFxoKgt6Uj36+kvaTXhujBS4xuFCU1nQ48mCnlmkwDUOFzp1KXCNw4VOXQpc43ChU5cC1zhc6NSlwDUOFzp18f2iQbjUKYtvF0IIIYQQQggxcf4DypenEkLHlLsAAAAASUVORK5CYII=>
