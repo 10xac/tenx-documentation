@@ -17,4 +17,4 @@ hide:
 
 ---
 
-*In the meantime, visit [www.10academy.org](www.10academy.org) for upcoming training.*
+*In the meantime, visit [www.10academy.org](https://10academy.org/) for upcoming training.*

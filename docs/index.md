@@ -81,7 +81,7 @@ Introductory Video About Tenx
 <div style="flex: 1 1 30ch; min-width: 250px;">
   <h3>More</h3>
   <ul>
-    <li><a href="features/browse.md">Browse Tenx Features</a></li>
+    <li><a href="Browse All Features">Browse Tenx Features</a></li>
     <li><a href="whats-new">What’s New </a></li>
 
   </ul>

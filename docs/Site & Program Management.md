@@ -7,7 +7,7 @@ hide:
 
 ## **1\. Purpose**
 
-Provide **Staff (Admins)** and **Super Admins** a concise reference for managing Tenx’s site operations and training programs—strictly based on the current feature set and the 2024‑2025 plan.
+Provide **Staff (Admins)** and **Super Admins** a concise reference for managing Tenx’s site operations and training programs.
 
 ---
 
