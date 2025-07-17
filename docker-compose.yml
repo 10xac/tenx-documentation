@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  docs:
+    build: .
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./docs:/app/docs
