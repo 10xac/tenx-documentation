@@ -1,7 +1,15 @@
-site_name: Tenx Documentaion
+site_name: ""
 
 theme:
   name: material
-markdown_extensions:
-  - attr_list
-  - md_in_html
+  font: false  # Disable Material font handling
+  logo: assets/images/tenx-logo.png
+extra:
+   font:
+    text: Inter
+    code: Fira Code
+extra_javascript:
+  - https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap
+extra_css:
+  - stylesheets/custom.css
+

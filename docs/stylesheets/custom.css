@@ -1,0 +1,73 @@
+/* Set the site background to #F7F7F7 */
+body,
+.md-main,
+.md-main__inner,
+.md-content {
+  background-color: #f7f7f7 !important;
+}
+
+/* Change all link colors to Tenx Orange */
+a {
+  color: #fa4c07 !important;
+  text-decoration: none; /* Optional: remove underline */
+}
+
+a:hover {
+  color: #d43b00; /* Optional: slightly darker on hover */
+  text-decoration: underline;
+}
+
+/* Apply Inter font and correct weight to headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Outfit", sans-serif !important;
+  font-weight: 450 !important; /* Makes headers bold */
+  color: black !important;
+}
+
+/* Optional: Style page main heading */
+.md-typeset h1 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+/* Match navbar with body background */
+.md-header,
+.md-tabs {
+  background-color: #f7f7f7 !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+/* Optional: remove logo background fill, if needed */
+.md-header__button.md-logo {
+  background: transparent !important;
+}
+/* Search bar background and rounded corners */
+.md-search__form {
+  background-color: #ffffff !important;
+  border-radius: 8px !important;
+  border: 1px solid #ddd;
+}
+
+/* Ensure search text is visible */
+.md-search__input {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 8px !important;
+}
+
+/* Ensure placeholder text is visible */
+.md-search__input::placeholder {
+  color: #666666 !important;
+}
+
+/* Ensure magnifying glass icon is visible */
+.md-search__icon {
+  color: #000000 !important;
+  fill: #000000 !important;
+}
