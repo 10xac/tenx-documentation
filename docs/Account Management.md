@@ -2,6 +2,11 @@
 hide:
   - navigation
 ---
+<a href="javascript:history.back()" style="
+font-family: 'Outfit', sans-serif;
+">← Back</a>
+
+# Account Management
 
 Effective account management is the foundation for getting the most out of Tenx. This page walks you through everything you need—from creating your account for the first time to completing your profile so the platform can serve you the best-matched content and opportunities.
 

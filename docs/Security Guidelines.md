@@ -2,6 +2,11 @@
 hide:
   - navigation
 ---
+<a href="javascript:history.back()" style="
+font-family: 'Outfit', sans-serif;
+">← Back</a>
+
+# Security Guidelines
 
 
 ## Core Security Architecture

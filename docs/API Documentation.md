@@ -3,6 +3,12 @@ hide:
   - navigation
 ---
 
+<a href="javascript:history.back()" style="
+font-family: 'Outfit', sans-serif;
+">← Back</a>
+
+# API Documentation
+
 This page provides API documentation for 10Academy’s tools, including Parrot, Trainee Information Processor, Career Simulator, Auto Grader, and Eagle. Please visit each of these links to view the full documentation.
 
 ## Job Recommender
@@ -70,6 +76,7 @@ Key Features
 ---
 
 ## Eagle
+
 Centralized monitoring system tracking engagement and performance metrics.
 
 Key Features
@@ -78,7 +85,6 @@ Key Features
 - Single Kedro pipeline for data ingestion & processing
 - LLM-generated configuration files for dynamic alerts
 - Data Formulator for custom report visualization
-
 
 **API Reference** - [https://eagle.10academy.org/redoc](https://eagle.10academy.org/redoc)
 
@@ -93,7 +99,6 @@ Key Features
 - Text, audio, and video interview simulations with structured feedback
 - Real-interview upload and AI-driven analysis
 - Peer-learning modes and admin analytics dashboard
-
 
 - [https://dev-frog-ipersona.10academy.org/api/redoc](https://dev-frog-ipersona.10academy.org/api/redoc)
 

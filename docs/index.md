@@ -13,7 +13,7 @@ hide:
   flex-direction: column;
   flex-wrap: wrap;
   gap: 1.5rem;
-  width: 60vw;
+  width: 68vw;
   margin-left: 0;
   background-color: #F7F7F7;
   font-size: 0.75rem;
@@ -85,7 +85,6 @@ hide:
 
   <!-- First Row -->
   <div class="responsive-row">
-
     <div class="responsive-box responsive-wide">
       <img src="assets/icons/welcome.png" style="height: 20px; width: 20px;">
       <h3> Welcome to Tenx</h3>
@@ -95,7 +94,6 @@ hide:
         <li><a href="demo">Demo Guide</a></li>
       </ul>
     </div>
-
     <div class="responsive-box responsive-third">
       <img src="assets/icons/quick start.png" style="height: 20px; width: 20px;">
       <h3> Quick Start Guides</h3>
@@ -105,7 +103,6 @@ hide:
         <li><a href="Staff_Admin Quick Guide">Staff/Admin Quick Guide</a></li>
       </ul>
     </div>
-
     <div class="responsive-box responsive-third">
 
    <img src="assets/icons/more.png" style="height:7px; width: 20px;">
@@ -120,7 +117,6 @@ hide:
 
   <!-- Second Row -->
   <div class="responsive-row">
-
     <div class="responsive-box responsive-third">
       <img src="assets/icons/trainees.png" style="height: 20px; width: 20px;">
       <h3> For Trainees</h3>
@@ -134,7 +130,6 @@ hide:
         <li><a href="Career Exploration">Career Exploration</a></li>
       </ul>
     </div>
-
     <div class="responsive-box responsive-third">
       <img src="assets/icons/staff.png" style="height: 20px; width: 18px;">
       <h3> For Staff & Administrators</h3>
@@ -146,7 +141,6 @@ hide:
         <li><a href="Analytics & Reporting">Analytics and Reporting</a></li>
       </ul>
     </div>
-
     <div class="responsive-box responsive-third">
      <img src="assets/icons/developers.png" style="height: 20px; width: 20px;">
       <h3> For Developers & Technical Users</h3>

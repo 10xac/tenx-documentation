@@ -4,6 +4,7 @@ body,
 .md-main__inner,
 .md-content {
   background-color: #f7f7f7 !important;
+  margin-top: 0;
 }
 
 /* Change all link colors to Tenx Orange */

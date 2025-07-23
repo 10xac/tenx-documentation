@@ -2,7 +2,11 @@
 hide:
   - navigation
 ---
+<a href="javascript:history.back()" style="
+font-family: 'Outfit', sans-serif;
+">← Back</a>
 
+# Personalised Learning Journey
 
 **Empowering each trainee with a tailored experience on Tenx**
 

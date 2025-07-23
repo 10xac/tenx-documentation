@@ -3,93 +3,107 @@ hide:
   - navigation
 ---
 
+<a href="javascript:history.back()" style="
+font-family: 'Outfit', sans-serif;
+">← Back</a>
+
 # Demo Videos
 
 <div class="video-grid">
 
-  <a href="https://drive.google.com/file/d/1caY3vTAOSAFujZ4SPqnmZKyD2weYWYyr/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+  <a href="https://drive.google.com/file/d/1caY3vTAOSAFujZ4SPqnmZKyD2weYWYyr/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
     <div class="video-card">
-      <img src="/Asset2@4x.jpg" alt="Video 1: Getting Started">
+      <img src="/assets/DemoIcons/language-diversity.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
       <p>Multi-Language Support</p>
     </div>
   </a>
 
   <a href="https://drive.google.com/file/d/1L2SsD8-9Aizpjv_YcOMmadRvzCPKL5Lo/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card" >
-<img src="/Asset2@4x.jpg">      
+      <img src="/assets/DemoIcons/rating.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
 <p>Initial Assessment</p>
     </div>
   </a>
 
   <a href="https://drive.google.com/file/d/1A9muXWGF9vEl3AGuWLgHO-1hgcZbJXF1/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card">
-<img src="/Asset2@4x.jpg">      <p>CV Analysis</p>
+      <img src="/assets/DemoIcons/curriculum-vitae.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+     <p>CV Analysis</p>
     </div>
   </a>
   
   <a href="https://drive.google.com/file/d/1KC3R0b-jOC6dG3oq0mQPSvOlVwhxXju3/view?usp=sharing" target="_blank" rel="noopener noreferrer">
     <div class="video-card" >
-<img src="/Asset2@4x.jpg">      
+      <img src="/assets/DemoIcons/soft-skills.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
 <p>Competency Mapping</p>
     </div>
   </a>
 
   <a href="https://drive.google.com/file/d/1k9fjsEI5VuxfPaYYUuLBU_4suOoALbwn/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card">
-<img src="/Asset2@4x.jpg">      <p>Personalized Learning</p>
+      <img src="/assets/DemoIcons/location.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+<p>Personalized Learning</p>
     </div>
   </a>
   <a href="https://drive.google.com/file/d/13QRtWdwJagwcLdynUOZGx4W3p0AJqFJO/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card" >
-<img src="/Asset2@4x.jpg">      
+      <img src="/assets/DemoIcons/artificial-intelligence.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
 <p>AI - Assisted Assignments</p>
     </div>
   </a>
 
   <a href="https://drive.google.com/file/d/1jT_H4j7z02CSCSJfYL0bB-UP4x24R99a/view?usp=sharing" target="_blank" rel="noopener noreferrer">
     <div class="video-card">
-<img src="/Asset2@4x.jpg">      <p>Iterative Feedback</p>
+      <img src="/assets/DemoIcons/like.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+  <p>Iterative Feedback</p>
     </div>
   </a>
   <a href="https://drive.google.com/file/d/18eXOF-0I5GY9i8KFKy5ghSPXoD5bLU4z/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card" >
-<img src="/Asset2@4x.jpg">      
+      <img src="/assets/DemoIcons/certified-organic-badge.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+    
 <p>Certification and CV Creation</p>
     </div>
   </a>
 
   <a href="https://drive.google.com/file/d/1ol0z1IrC0mj9x8XutqAYpTNGHE0GIxf6/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card">
-<img src="/Asset2@4x.jpg">      <p>Job Matching</p>
+      <img src="/assets/DemoIcons/job-seeking.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+    <p>Job Matching</p>
     </div>
   </a>
   <a href="https://drive.google.com/file/d/1jMeUXC5VJUj-aC4TzCfRTMejpItWan7e/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card" >
-<img src="/Asset2@4x.jpg">      
+      <img src="/assets/DemoIcons/job-interview.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+  
 <p>Interview Preparation</p>
     </div>
   </a>
 
   <a href="https://drive.google.com/file/d/1AWv8gT5_JRqnX4SunD9GOoIfSorisveD/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card">
-<img src="/Asset2@4x.jpg">      <p>Institutional Insights and Scalability - Application</p>
+      <img src="/assets/DemoIcons/monitor.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+   <p>Institutional Insights and Scalability - Application</p>
     </div>
   </a>
   <a href="https://drive.google.com/file/d/1SFzZvZqW8AELoZXckZRILIF9_Afric7s/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card" >
-<img src="/Asset2@4x.jpg">      
+      <img src="/assets/DemoIcons/monitor.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+  
 <p>Institutional Insights and Scalability - Training</p>
     </div>
   </a>
 
   <a href="https://drive.google.com/file/d/1D1kZfW7mbkd6BB4d1Y8HYVGlJtHaSg5j/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card">
-<img src="/Asset2@4x.jpg">      <p>Institutional Insights and Scalability - Job Search</p>
+      <img src="/assets/DemoIcons/monitor.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+    <p>Institutional Insights and Scalability - Job Search</p>
     </div>
   </a>
  <a href="https://drive.google.com/file/d/1Bel_9RNZDqDU7ymvkl0nDDnZ4nTqJimF/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <div class="video-card">
-<img src="/Asset2@4x.jpg">      <p>Continuous Updates for Emerging Technologies</p>
+      <img src="/assets/DemoIcons/light-bulb.png" style="height: 20%; width: 20%; margin-left: 40%;  margin-bottom: 10%;  margin-top: 10%; ">
+   <p>Continuous Updates for Emerging Technologies</p>
     </div>
   </a>
   <!-- add more cards here -->
@@ -100,7 +114,6 @@ hide:
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1rem;
-  padding: 1rem 0;
 }
 .video-card {
   background: var(--md-default-bg-color);

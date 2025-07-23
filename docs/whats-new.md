@@ -3,6 +3,10 @@ hide:
   - navigation
 ---
 
+<a href="javascript:history.back()" style="
+font-family: 'Outfit', sans-serif;
+">← Back</a>
+
 # What’s New
 
 > 🚧 This page is under construction. Stay tuned—our latest features, improvements, and bug fixes will appear here soon!
@@ -17,4 +21,4 @@ hide:
 
 ---
 
-*In the meantime, visit [www.10academy.org](https://10academy.org/) for upcoming training.*
+_In the meantime, visit [www.10academy.org](https://10academy.org/) for upcoming training._

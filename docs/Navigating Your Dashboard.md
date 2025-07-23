@@ -2,7 +2,11 @@
 hide:
   - navigation
 ---
+<a href="javascript:history.back()" style="
+font-family: 'Outfit', sans-serif;
+">← Back</a>
 
+# Navigating Your Dashboard
 
 Your Tenx dashboard is the command-centre for everything you do on the platform. It surfaces your progress, deadlines, feedback and career signals in one place so you can act quickly and stay on track.
 
