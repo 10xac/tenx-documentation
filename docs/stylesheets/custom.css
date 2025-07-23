@@ -43,9 +43,10 @@ h6 {
   border-bottom: none !important;
 }
 
-/* Optional: remove logo background fill, if needed */
-.md-header__button.md-logo {
-  background: transparent !important;
+/* Style the mobile sidebar toggle button (hamburger icon) */
+.md-header__button.md-icon {
+  color: black !important;
+  fill: black !important;
 }
 /* Search bar background and rounded corners */
 .md-search__form {
