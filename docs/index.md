@@ -99,8 +99,8 @@ hide:
       <h3> Quick Start Guides</h3>
       <ul>
         <li><a href="Account Management">Account Management</a></li>
-        <li><a href="Trainee Quick Guide">Trainee Quick Guide</a></li>
-        <li><a href="Staff_Admin Quick Guide">Staff/Admin Quick Guide</a></li>
+        <li><a href="/Trainee Quick Guide/Trainee Quick Guide">Trainee Quick Guide</a></li>
+        <li><a href="Staff_Admin Quick Guide/Staff_Admin Quick Guide">Staff/Admin Quick Guide</a></li>
       </ul>
     </div>
     <div class="responsive-box responsive-third">
@@ -121,11 +121,11 @@ hide:
       <img src="assets/icons/trainees.png" style="height: 20px; width: 20px;">
       <h3> For Trainees</h3>
       <ul>
-        <li><a href="Initial Skill Assessment">Initial Skill Assessment</a></li>
-        <li><a href="Navigating Your Dashboard">Navigating Your Dashboard</a></li>
-        <li><a href="Personalized Learning Journey">Personalised Learning Journey</a></li>
-        <li><a href="_AI-Assisted Assignments">AI Assisted Assignment</a></li>
-        <li><a href="LEAP Navigation">Job Readiness & Matching</a></li>
+        <li><a href="Initial Skill Assessment/Initial Skill Assessment ">Initial Skill Assessment</a></li>
+        <li><a href="Navigating Your Dashboard/Navigating Your Dashboard">Navigating Your Dashboard</a></li>
+        <li><a href="Personalized Learning Journey/Personalized Learning Journey">Personalized Learning Journey</a></li>
+        <li><a href="_AI-Assisted Assignments/_AI-Assisted Assignments">AI Assisted Assignment</a></li>
+        <li><a href="LEAP Navigation/LEAP Navigation">Job Readiness & Matching</a></li>
         <li><a href="Certification and Portfolio">Certification and Portfolio</a></li>
         <li><a href="Career Exploration">Career Exploration</a></li>
       </ul>
