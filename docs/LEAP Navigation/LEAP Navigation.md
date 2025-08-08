@@ -234,11 +234,13 @@ On the top right corner, you can find your general links and personal contact
 **Bio and Work Experience:** Add and update your work experience.
 
 ## <img src="/LEAP Navigation/images/Bio and Work Experience 2.jpg">
-
-<img src="/LEAP Navigation/images/Education 1.jpg">
+---
+<img src="/LEAP Navigation/images/Education.jpg">
 **Education:** Add and update your educational background.
 
 ## <img src="/LEAP Navigation/images/Education 2.jpg">
+
+---
 
 <img src="/LEAP Navigation/images/Projects.jpg">
 **Projects:** Add projects you've worked on during or outside the intensive training.

@@ -126,7 +126,7 @@ hide:
         <li><a href="Personalized Learning Journey/Personalized Learning Journey">Personalized Learning Journey</a></li>
         <li><a href="_AI-Assisted Assignments/_AI-Assisted Assignments">AI Assisted Assignment</a></li>
         <li><a href="LEAP Navigation/LEAP Navigation">Job Readiness & Matching</a></li>
-        <li><a href="Certification and Portfolio">Certification and Portfolio</a></li>
+        <li><a href="Certification and Portfolio/Certification and Portfolio">Certification and Portfolio</a></li>
         <li><a href="Career Exploration">Career Exploration</a></li>
       </ul>
     </div>
