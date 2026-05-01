@@ -359,7 +359,7 @@ The **Attachment** tab displays uploaded and created attachments that can be reu
 
 ### 3.2.5 Manage Assignments
 
-See the full Assignment Management workflow in [§ 3.2.8](#328-assignment-management) below.
+See the full Assignment Management workflow in [3.2.8](#328-assignment-management) below.
 
 ---
 

@@ -13,29 +13,6 @@ stage. Each item links to the step-by-step guide where it is documented.
 
 ---
 
-## Lifecycle at a glance
-
-```
- APPLY LEARN LAUNCH
- ┌───────────────┐ ┌────────────────────┐ ┌────────────────────┐
- │ Apply │ → │ Tenx Learning │ → │ Leap │
- │ (intake) │ │ (training) │ │ (career readiness)│
- └───────────────┘ └────────────────────┘ └────────────────────┘
- │ │ │
- ▼ ▼ ▼
- Submit forms, Modules, assignments, Career profile,
- take quizzes, grading, leaderboard, resume builder,
- onboarding peer review interviews, jobs
-```
-
-| Stage | Platform | Where to read more |
-|---|---|---|
-| **Apply** | Apply | [Apply platform](../platforms/apply/index.md) |
-| **Learn** | Tenx Learning | [Trainee Guide](../platforms/tenx-learning/trainee.md) |
-| **Launch** | Leap | [Leap platform](../platforms/leap/index.md) |
-
----
-
 ## 1. Getting onto the platform
 
 Before learners can do anything, they need credentials.
@@ -73,11 +50,11 @@ Topics organise the curriculum; modules are the learning units inside each topic
 
 | Activity | Section |
 |---|---|
-| Switch between **In Progress / To do / Done** topic tabs | [§ 4.3.2 View Topics](../platforms/tenx-learning/trainee.md#432-view-topics) |
-| Toggle between card and table view | [§ 4.3.2](../platforms/tenx-learning/trainee.md#432-view-topics) |
-| Discover topics outside the assigned curriculum | [§ 4.3.4 Explore Topics](../platforms/tenx-learning/trainee.md#434-explore-topics) |
-| Read module content | [§ 4.3.5.1 View Module Content](../platforms/tenx-learning/trainee.md#4351-view-module-content) |
-| See module assignments | [§ 4.3.5.2 View Module Assignments](../platforms/tenx-learning/trainee.md#4352-view-module-assignments) |
+| Switch between **In Progress / To do / Done** topic tabs | [4.3.2 View Topics](../platforms/tenx-learning/trainee.md#432-view-topics) |
+| Toggle between card and table view | [4.3.2](../platforms/tenx-learning/trainee.md#432-view-topics) |
+| Discover topics outside the assigned curriculum | [4.3.4 Explore Topics](../platforms/tenx-learning/trainee.md#434-explore-topics) |
+| Read module content | [4.3.5.1 View Module Content](../platforms/tenx-learning/trainee.md#4351-view-module-content) |
+| See module assignments | [4.3.5.2 View Module Assignments](../platforms/tenx-learning/trainee.md#4352-view-module-assignments) |
 
 ### 2.3 Submit assignments and review feedback
 
@@ -85,12 +62,12 @@ Assignments are the assessment surface for everything a learner does.
 
 | Activity | Section |
 |---|---|
-| See all assignments across enrolled modules | [§ 4.4 Assignment](../platforms/tenx-learning/trainee.md#44-assignment) |
-| Filter by topic, view grading and submission stats | [§ 4.4.2 View All Assignments](../platforms/tenx-learning/trainee.md#442-view-all-assignments) |
-| Open an assignment that is **submitted on time** | [§ 4.3.5.4 Assignment Detail — Submitted](../platforms/tenx-learning/trainee.md#4354-assignment-detail-submitted-on-time) |
+| See all assignments across enrolled modules | [4.4 Assignment](../platforms/tenx-learning/trainee.md#44-assignment) |
+| Filter by topic, view grading and submission stats | [4.4.2 View All Assignments](../platforms/tenx-learning/trainee.md#442-view-all-assignments) |
+| Open an assignment that is **submitted on time** | [4.3.5.4 Assignment Detail — Submitted](../platforms/tenx-learning/trainee.md#4354-assignment-detail-submitted-on-time) |
 | Read the rubric scoring (per criterion) | [Rubric Scoring](../platforms/tenx-learning/trainee.md#4354-assignment-detail-submitted-on-time) |
 | Read qualitative feedback per criterion | [Feedback Sections](../platforms/tenx-learning/trainee.md#4354-assignment-detail-submitted-on-time) |
-| See what happens when **the submission window has closed** | [§ 4.3.5.3 Submission Window Closed](../platforms/tenx-learning/trainee.md#4353-assignment-detail-submission-window-closed) |
+| See what happens when **the submission window has closed** | [4.3.5.3 Submission Window Closed](../platforms/tenx-learning/trainee.md#4353-assignment-detail-submission-window-closed) |
 | Add private comments back to the tutor | Same panel as above |
 
 ### 2.4 Compare with peers on the leaderboard
@@ -100,7 +77,7 @@ Healthy competition keeps learners engaged.
 - View ranking by topic, current score, cumulative score
 - Switch between topics from the dropdown selector
 
-→ [§ 4.2 Leaderboard](../platforms/tenx-learning/trainee.md#42-leaderboard)
+→ [4.2 Leaderboard](../platforms/tenx-learning/trainee.md#42-leaderboard)
 
 ### 2.5 Participate in peer grading
 
@@ -110,7 +87,7 @@ Some assessments are graded by other learners. The Peer Grading page lets a lear
 - Review **completed** peer-grading work
 - Open the assignment, score it against the rubric, leave feedback
 
-→ [§ 4.6 Peer Grading](../platforms/tenx-learning/trainee.md#46-peer-grading)
+→ [4.6 Peer Grading](../platforms/tenx-learning/trainee.md#46-peer-grading)
 
 ---
 
@@ -147,8 +124,8 @@ several visual templates → [Resume Templates](../platforms/tenx-learning/train
 
 | Tab | What it shows | Section |
 |---|---|---|
-| **Competencies** | Skills the learner has gained, mapped to SFIA levels, with approval status and validation requests. Card and table views available. | [§ 4.5.6 Competencies](../platforms/tenx-learning/trainee.md#456-competencies) |
-| **Achievements** | Completed modules and earned certificates. Empty state shown until the first module is completed. | [§ 4.5.7 Achievements](../platforms/tenx-learning/trainee.md#457-achievements) |
+| **Competencies** | Skills the learner has gained, mapped to SFIA levels, with approval status and validation requests. Card and table views available. | [4.5.6 Competencies](../platforms/tenx-learning/trainee.md#456-competencies) |
+| **Achievements** | Completed modules and earned certificates. Empty state shown until the first module is completed. | [4.5.7 Achievements](../platforms/tenx-learning/trainee.md#457-achievements) |
 
 ---
 

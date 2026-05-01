@@ -7,11 +7,15 @@ ecosystem. It manages the full applicant journey from intake through assessment,
 review, and selection. This guide covers everything **applicants** and **staff**
 do on the platform.
 
+<div class="pdf-downloads" markdown>
+
 **Download as PDF:**
 
 [Full user guide](../../assets/pdfs/apply-user-guide.pdf){ .md-button .md-button--primary download="Apply-User-Guide.pdf" }
 [Applicant guide](../../assets/pdfs/apply-applicant-guide.pdf){ .md-button download="Apply-Applicant-Guide.pdf" }
 [Staff guide](../../assets/pdfs/apply-staff-guide.pdf){ .md-button download="Apply-Staff-Guide.pdf" }
+
+</div>
 
 | Audience | Where to start |
 |---|---|

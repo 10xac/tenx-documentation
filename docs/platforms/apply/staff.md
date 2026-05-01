@@ -21,9 +21,9 @@ top-level menus:
 
 | Menu | What it covers | Section |
 |---|---|---|
-| **Dashboard** | Real-time monitoring through Applications, Assessment, and Surveys cards | [§ 3.2](#32-dashboard) |
-| **Assets** | Forms and Question Bank — the reusable building blocks of a cohort | [§ 3.3](#33-assets) |
-| **Management** | Operational hub: Applicant List, Applications, Reviews, Assessment, Surveys | [§ 3.4](#34-management) |
+| **Dashboard** | Real-time monitoring through Applications, Assessment, and Surveys cards | [3.2](#32-dashboard) |
+| **Assets** | Forms and Question Bank — the reusable building blocks of a cohort | [3.3](#33-assets) |
+| **Management** | Operational hub: Applicant List, Applications, Reviews, Assessment, Surveys | [3.4](#34-management) |
 
 ---
 
@@ -585,7 +585,7 @@ Assessment card — Dashboard is for monitoring, Management is for configuring.
 ![Assessment create question](../../assets/images/apply/assesmentcreatequation.png)
 
 6. *(Optional)* Configure scoring rules and pass/fail thresholds
-7. *(Optional)* Link the assessment to an application as a pre-assessment (see [§ 3.4.3.1](#3431-create-new-application))
+7. *(Optional)* Link the assessment to an application as a pre-assessment (see [3.4.3.1](#3431-create-new-application))
 
 **Step 4 — Finish**
 

@@ -8,7 +8,6 @@ theme:
   font: false
   logo: assets/images/tenx-logo.png
   features:
-    - navigation.sections
     - navigation.expand
     - navigation.top
     - navigation.tabs
@@ -47,17 +46,12 @@ nav:
       - Apply: demos/apply.md
       - Leap: demos/leap.md
       - Management Dashboard: demos/dashboard.md
-  - Guides:
-      - Overview: guides/index.md
-      - Tenx Learning: platforms/tenx-learning/index.md
-      - Apply: platforms/apply/index.md
-      - Leap: platforms/leap/index.md
-      - Management Dashboard: platforms/dashboard/index.md
+  - Guides: guides/index.md
   - Platforms:
       - Tenx Learning:
           - Overview: platforms/tenx-learning/index.md
-          - Staff Guide: platforms/tenx-learning/staff.md
           - Trainee Guide: platforms/tenx-learning/trainee.md
+          - Staff Guide: platforms/tenx-learning/staff.md
       - Apply:
           - Overview: platforms/apply/index.md
           - Applicant Guide: platforms/apply/applicant.md
@@ -79,7 +73,7 @@ plugins:
 markdown_extensions:
   - tables
   - toc:
-      permalink: true
+      permalink: false
   - admonition
   - attr_list
   - md_in_html

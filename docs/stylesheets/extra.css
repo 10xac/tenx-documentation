@@ -137,10 +137,182 @@ h6 {
   color: #fa4c07 !important;
 }
 
-.md-nav__link--active,
-.md-nav__item--active > .md-nav__link {
+/* Parent SECTION labels (the toggleable group headers like "Platforms",
+   "Tenx Learning") AND flat top-level sidebar links (Apps, FAQ, Glossary,
+   Guides) — keep them visually consistent: uppercase, smaller, neutral.
+   This ensures every top-level entry in the sidebar reads as a section
+   heading regardless of whether it has children. */
+label.md-nav__link,
+.md-nav--primary > .md-nav__list > .md-nav__item > a.md-nav__link {
+  color: #555 !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.75rem !important;
+  cursor: pointer;
+}
+
+label.md-nav__link:hover,
+.md-nav--primary > .md-nav__list > .md-nav__item > a.md-nav__link:hover {
+  color: #1a1a1a !important;
+}
+
+/* If a flat top-level link is the active page, still highlight it orange */
+.md-nav--primary > .md-nav__list > .md-nav__item > a.md-nav__link--active {
+  color: #fa4c07 !important;
+}
+
+/* Even when an ancestor section contains the active page, do NOT highlight
+   the section parent in orange — only the actual active link gets orange. */
+.md-nav__item--active > label.md-nav__link {
+  color: #555 !important;
+  font-weight: 600 !important;
+}
+
+/* The actually-active page link (the leaf, not its parents) — orange + bold. */
+a.md-nav__link--active,
+.md-nav__link--active:not(label) {
   color: #fa4c07 !important;
   font-weight: 600;
+}
+
+/* ===== FAQ collapsible questions — match the orange theme ===== */
+
+.md-typeset details.question,
+.md-typeset .admonition.question {
+  border-color: #fa4c07 !important;
+  background-color: #fff8f4 !important;
+}
+
+.md-typeset details.question > summary,
+.md-typeset .admonition.question > .admonition-title,
+.md-typeset details.question > summary.admonition-title {
+  background-color: #fff4ed !important;
+  color: #1a1a1a !important;
+  border-left: 4px solid #fa4c07;
+  font-weight: 600;
+}
+
+.md-typeset details.question > summary::before,
+.md-typeset .admonition.question > .admonition-title::before {
+  background-color: #fa4c07 !important;
+}
+
+.md-typeset details.question > summary:hover {
+  background-color: #ffeadb !important;
+}
+
+/* Right-side Table of Contents (page TOC) — match the top nav tabs */
+.md-nav--secondary .md-nav__title,
+.md-sidebar--secondary .md-nav__title {
+  font-family: "Outfit", sans-serif !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  font-size: 0.85rem !important;
+}
+
+.md-nav--secondary .md-nav__link {
+  font-family: "Outfit", sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 0.85rem !important;
+  color: #333 !important;
+  opacity: 0.7;
+}
+
+.md-nav--secondary .md-nav__link:hover,
+.md-nav--secondary .md-nav__link--active {
+  color: #fa4c07 !important;
+  opacity: 1;
+}
+
+/* Disable clickable heading permalinks (¶) — already off in mkdocs.yml,
+   but keep the rule so any inline anchor stays inert */
+.md-typeset .headerlink {
+  display: none !important;
+}
+
+/* ===== PDF DOWNLOAD BUTTONS ===== */
+
+.pdf-downloads {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin: 1rem 0 1.5rem;
+  padding: 0.9rem 1rem;
+  background: #f7f7f7;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+}
+
+.pdf-downloads p {
+  margin: 0 !important;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+
+.pdf-downloads .md-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 !important;
+  padding: 0.5rem 1rem;
+  font-family: "Outfit", sans-serif !important;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 6px;
+  white-space: nowrap;
+  border: 1px solid #fa4c07 !important;
+  color: #fa4c07 !important;
+  background: transparent !important;
+}
+
+.pdf-downloads .md-button:hover {
+  background: #fff4ed !important;
+  color: #d43b00 !important;
+  border-color: #d43b00 !important;
+}
+
+.pdf-downloads .md-button.md-button--primary {
+  background: #fa4c07 !important;
+  color: #ffffff !important;
+  border-color: #fa4c07 !important;
+}
+
+.pdf-downloads .md-button.md-button--primary:hover {
+  background: #d43b00 !important;
+  color: #ffffff !important;
+  border-color: #d43b00 !important;
+}
+
+/* Wrap the buttons into a row on tablet/desktop, stack on mobile */
+@media (min-width: 600px) {
+  .pdf-downloads {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .pdf-downloads p {
+    margin-right: 0.5rem !important;
+  }
+}
+
+/* Mobile: full-width buttons, stacked */
+@media (max-width: 599px) {
+  .pdf-downloads .md-button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  cursor: default;
 }
 
 /* ===== TYPOGRAPHY ===== */

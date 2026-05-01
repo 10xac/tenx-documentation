@@ -253,7 +253,7 @@ The Assignment page provides trainees with a centralized view of all assignments
 
 ### 4.4.4 Assignment Detail
 
-Clicking on an assignment name opens the **Assignment Detail** page, which is identical to the detail view accessed from the Module page. Refer to [§ 4.3.5](#435-module-content-and-assignments) above for full details on:
+Clicking on an assignment name opens the **Assignment Detail** page, which is identical to the detail view accessed from the Module page. Refer to [4.3.5](#435-module-content-and-assignments) above for full details on:
 
 - Submission Window Closed view
 - Submitted (On Time) view with rubric scoring

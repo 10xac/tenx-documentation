@@ -5,11 +5,15 @@
 This guide walks both **staff** and **trainees** through every feature of the
 Tenx Learning platform — from logging in to grading assignments.
 
+<div class="pdf-downloads" markdown>
+
 **Download as PDF:**
 
 [Full user guide](../../assets/pdfs/tenx-learning-user-guide.pdf){ .md-button .md-button--primary download="Tenx-Learning-User-Guide.pdf" }
 [Trainee guide](../../assets/pdfs/tenx-learning-trainee-guide.pdf){ .md-button download="Tenx-Learning-Trainee-Guide.pdf" }
 [Staff guide](../../assets/pdfs/tenx-learning-staff-guide.pdf){ .md-button download="Tenx-Learning-Staff-Guide.pdf" }
+
+</div>
 
 | Audience | Where to start |
 |---|---|

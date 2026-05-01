@@ -8,11 +8,11 @@ responsibility, and the key functionality it provides.
 
 ---
 
-## Tenx Learning Apps
+## 1. Tenx Learning Apps
 
 Apps that power the **Tenx Learning** training platform.
 
-### Tenx App (Tenx Learning Frontend)
+### 1.1 Tenx App (Tenx Learning Frontend)
 
 **Description.** The user-facing web application for trainees and staff on the
 training platform. The single interface where trainees consume content and
@@ -28,7 +28,7 @@ submit work, and where staff author content and run grading.
 
 ---
 
-### Smart Grader
+### 1.2 Smart Grader
 
 **Description.** The automated grading engine. Smart Grader evaluates trainee
 submissions against rubric criteria, produces per-criterion scores and
@@ -44,7 +44,7 @@ qualitative feedback, and feeds results back into the assignment view.
 
 ---
 
-### Auto-Rubric Generator
+### 1.3 Auto-Rubric Generator
 
 **Description.** The AI-assisted rubric authoring service. Lets staff create
 grading criteria fast — either fully AI-generated, or AI-assisted from a
@@ -60,7 +60,7 @@ challenge document or prompt template.
 
 ---
 
-### Trainee Information Processor
+### 1.4 Trainee Information Processor
 
 **Description.** The trainee/user-management service. Handles trainee
 registration, batch onboarding, profile data, environment-aware secret
@@ -76,7 +76,7 @@ management, and webhook callbacks for batch processing.
 
 ---
 
-### json2pdf
+### 1.5 json2pdf
 
 **Description.** The PDF generation service. Renders structured JSON profiles
 into polished PDFs — used for trainee resumes, certificates, and other
@@ -92,7 +92,7 @@ trainee-facing documents.
 
 ---
 
-### Insight Management
+### 1.6 Insight Management
 
 **Description.** The engagement and performance analytics layer for Tenx
 Learning. Aggregates trainee activity into the dashboards and leaderboards
@@ -108,11 +108,11 @@ staff use to monitor cohorts.
 
 ---
 
-## Leap Apps
+## 2. Leap Apps
 
 Apps that power the **Leap** career-readiness platform.
 
-### Leap Frontend
+### 2.1 Leap Frontend
 
 **Description.** The user-facing web application that trainees and staff
 interact with. Provides the unified interface for all Leap workflows: profile
@@ -127,7 +127,7 @@ building, job browsing, interview preparation, and career coaching.
 
 ---
 
-### Frog — Job Recommendation Engine
+### 2.2 Frog — Job Recommendation Engine
 
 **Description.** The intelligent job-matching engine. Frog analyses each
 trainee's competencies, preferences, and career goals to recommend the most
@@ -144,7 +144,7 @@ results.
 
 ---
 
-### Career Scenario Simulator (CSS)
+### 2.3 Career Scenario Simulator (CSS)
 
 **Description.** An interactive coaching and practice environment. CSS
 provides scenario-based exercises so trainees can rehearse professional
@@ -161,7 +161,7 @@ real world.
 
 ---
 
-### Parrot (iPersona) — CV Analysis & Enhancement
+### 2.4 Parrot (iPersona) — CV Analysis & Enhancement
 
 **Description.** The AI-powered CV analysis service. Parrot reads uploaded
 CVs, extracts competencies, and maps the trainee's experience to job
@@ -178,7 +178,7 @@ improvements.
 
 ---
 
-### Eagle — Engagement Monitoring & Notifications
+### 2.5 Eagle — Engagement Monitoring & Notifications
 
 **Description.** The engagement layer of Leap. Eagle observes how trainees
 interact with career services, identifies inactivity, and sends targeted
@@ -195,11 +195,11 @@ development.
 
 ---
 
-## Management Dashboard Apps
+## 3. Management Dashboard Apps
 
 Apps that power the **Management Dashboard** for organization administrators.
 
-### Dashboard Frontend
+### 3.1 Dashboard Frontend
 
 **Description.** The web interface used by Program Managers and Operations
 staff to oversee the Tenx ecosystem. Provides a unified surface for managing
@@ -214,7 +214,7 @@ programs, cohorts, services, and cross-platform reporting.
 
 ---
 
-### Dashboard Backend
+### 3.2 Dashboard Backend
 
 **Description.** The API and data layer that powers the dashboard. Aggregates
 operational data from Apply, Tenx Learning, and Leap so administrators can
@@ -230,7 +230,7 @@ manage programs end-to-end from a single place.
 
 ---
 
-### Program Management Module
+### 3.3 Program Management Module
 
 **Description.** The component that lets administrators create and configure
 training programs.
@@ -244,7 +244,7 @@ training programs.
 
 ---
 
-### Cohort Management Module
+### 3.4 Cohort Management Module
 
 **Description.** The component for running multiple cohorts simultaneously
 and handling cohort-specific configurations.
@@ -258,7 +258,7 @@ and handling cohort-specific configurations.
 
 ---
 
-### Service Oversight Module
+### 3.5 Service Oversight Module
 
 **Description.** The operational monitoring layer of the dashboard. Surfaces
 the health and status of every Tenx Platform service.
@@ -272,7 +272,7 @@ the health and status of every Tenx Platform service.
 
 ---
 
-### Cross-Platform Reporting Module
+### 3.6 Cross-Platform Reporting Module
 
 **Description.** The analytics layer that produces reports spanning the full
 trainee lifecycle.
@@ -286,11 +286,11 @@ trainee lifecycle.
 
 ---
 
-## Shared Apps
+## 4. Shared Apps
 
 Cross-platform utilities that serve more than one platform.
 
-### Content Extractor
+### 4.1 Content Extractor
 
 **Description.** Processes and extracts structured content from documents,
 code submissions, and external platforms. Powers content workflows across
@@ -305,7 +305,7 @@ Tenx Learning and Apply.
 
 ---
 
-### Documentation
+### 4.2 Documentation
 
 **Description.** The central knowledge base for the entire Tenx Platform.
 Provides guides, platform descriptions, and reference material for trainees,
@@ -320,7 +320,7 @@ staff, and administrators.
 
 ---
 
-### Official Website
+### 4.3 Official Website
 
 **Description.** The public-facing site that presents the organization's
 mission, programs, and value to prospective trainees, partners, and the
@@ -334,7 +334,7 @@ broader community.
 
 ---
 
-### Auto Content Generator *(in development)*
+### 4.4 Auto Content Generator *(in development)*
 
 **Description.** An AI-assisted content creation and optimization tool. Aims
 to automate and improve content production across training materials,
