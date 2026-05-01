@@ -1,5 +1,88 @@
-site_name: My Docs
+site_name: ""
+site_description: Official documentation for the Tenx Platform by 10 Academy
+site_url: ""
+
+theme:
+  name: material
+  custom_dir: overrides
+  font: false
+  logo: assets/images/tenx-logo.png
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+extra:
+  font:
+    text: Outfit
+    code: Fira Code
+  generator: false
+
+extra_javascript:
+  - https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap
+  - javascripts/header-tabs.js
+  - javascripts/lazy-video.js
+
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
-  - Getting Started: getting-started.md
-  - Features: features.md
+  - Start:
+      - Getting Started: getting-started.md
+      - Platform Overview: platform-overview.md
+  - Roles:
+      - Admins: roles/admins.md
+      - Instructors: roles/instructors.md
+      - Learners: roles/learners.md
+  - Demos:
+      - Overview: demos/index.md
+      - Tenx Learning: demos/tenx-learning.md
+      - Apply: demos/apply.md
+      - Leap: demos/leap.md
+      - Management Dashboard: demos/dashboard.md
+  - Guides:
+      - Overview: guides/index.md
+      - Tenx Learning: platforms/tenx-learning/index.md
+      - Apply: platforms/apply/index.md
+      - Leap: platforms/leap/index.md
+      - Management Dashboard: platforms/dashboard/index.md
+  - Platforms:
+      - Tenx Learning:
+          - Overview: platforms/tenx-learning/index.md
+          - Staff Guide: platforms/tenx-learning/staff.md
+          - Trainee Guide: platforms/tenx-learning/trainee.md
+      - Apply:
+          - Overview: platforms/apply/index.md
+          - Applicant Guide: platforms/apply/applicant.md
+          - Staff Guide: platforms/apply/staff.md
+      - Leap:
+          - Overview: platforms/leap/index.md
+          - Trainee Guide: platforms/leap/trainee.md
+          - Staff Guide: platforms/leap/staff.md
+      - Management Dashboard:
+          - Overview: platforms/dashboard/index.md
+          - Organization Guide: platforms/dashboard/organization.md
+  - Apps: apps.md
+  - FAQ: faq.md
+  - Glossary: glossary.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.mark

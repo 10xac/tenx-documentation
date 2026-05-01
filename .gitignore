@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+
+# Source/reference PDFs (contain internal URLs — not for public GitHub)
+tenx-doc-v1.pdf
+Tenx Platform Overview.pdf
+
+# Generated artifacts (rebuilt from docs/ on demand)
+Apply_Platform_User_Guide.md
+Apply_Platform_User_Guide_Draft.docx
+
+# Source screenshot folders — already copied into docs/assets/images/
+ApplyApplicant/
+ApplyStaff/
+ten_doc_staff/
+Trainee View/

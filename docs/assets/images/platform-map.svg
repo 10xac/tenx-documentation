@@ -1,0 +1,57 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1160" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7F1"/>
+      <stop offset="1" stop-color="#FFFDF9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF6A1A"/>
+      <stop offset="1" stop-color="#F04C07"/>
+    </linearGradient>
+    <filter id="shadow" x="120" y="68" width="1040" height="292" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="20"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.09 0 0 0 0 0.08 0 0 0 0 0.07 0 0 0 0.08 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="520" rx="28" fill="url(#bg)"/>
+
+  <text x="140" y="88" fill="#171717" font-family="Outfit, Arial, sans-serif" font-size="34" font-weight="700">Platform map</text>
+  <text x="140" y="124" fill="#6A625A" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="400">
+    The core Tenx journey from onboarding to training to employability.
+  </text>
+
+  <g filter="url(#shadow)">
+    <rect x="160" y="154" width="260" height="172" rx="24" fill="#FFFFFF"/>
+    <rect x="510" y="154" width="260" height="172" rx="24" fill="#FFFFFF"/>
+    <rect x="860" y="154" width="260" height="172" rx="24" fill="#FFFFFF"/>
+  </g>
+
+  <rect x="192" y="186" width="96" height="34" rx="17" fill="#FFF1E8"/>
+  <text x="214" y="208" fill="#F04C07" font-family="Outfit, Arial, sans-serif" font-size="15" font-weight="700">Apply</text>
+  <text x="192" y="252" fill="#171717" font-family="Outfit, Arial, sans-serif" font-size="30" font-weight="700">Onboard</text>
+  <text x="192" y="286" fill="#6A625A" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="400">Applications, screening,</text>
+  <text x="192" y="312" fill="#6A625A" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="400">assessments, and review.</text>
+
+  <rect x="542" y="186" width="148" height="34" rx="17" fill="#FFF1E8"/>
+  <text x="560" y="208" fill="#F04C07" font-family="Outfit, Arial, sans-serif" font-size="15" font-weight="700">Tenx Learning</text>
+  <text x="542" y="252" fill="#171717" font-family="Outfit, Arial, sans-serif" font-size="30" font-weight="700">Train</text>
+  <text x="542" y="286" fill="#6A625A" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="400">Projects, grading, feedback,</text>
+  <text x="542" y="312" fill="#6A625A" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="400">tracking, and support.</text>
+
+  <rect x="892" y="186" width="90" height="34" rx="17" fill="#FFF1E8"/>
+  <text x="917" y="208" fill="#F04C07" font-family="Outfit, Arial, sans-serif" font-size="15" font-weight="700">Leap</text>
+  <text x="892" y="252" fill="#171717" font-family="Outfit, Arial, sans-serif" font-size="30" font-weight="700">Launch</text>
+  <text x="892" y="286" fill="#6A625A" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="400">Profiles, matching, career</text>
+  <text x="892" y="312" fill="#6A625A" font-family="Outfit, Arial, sans-serif" font-size="18" font-weight="400">readiness, and outcomes.</text>
+
+  <path d="M420 240C455 240 470 240 505 240" stroke="url(#accent)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M770 240C805 240 820 240 855 240" stroke="url(#accent)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M492 224L516 240L492 256" stroke="#F04C07" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M842 224L866 240L842 256" stroke="#F04C07" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
